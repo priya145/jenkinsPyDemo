@@ -1,2 +1,1 @@
-py --version
-py main.py
+python main.py
