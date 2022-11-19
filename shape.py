@@ -5,10 +5,11 @@ from selenium import webdriver
 #driver.maximize_window()
 #driver.get("https://www.google.com/")
 #driver.close()
-skk = turtle.Turtle()
+def print_hi(name):
+    # Use a breakpoint in the code line below to debug your script.
+    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
-for i in range(4):
-    skk.forward(50)
-    skk.right(90)
 
-turtle.done()
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    print_hi('Priya')
